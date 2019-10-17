@@ -7,3 +7,8 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
