@@ -7,3 +7,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+section {
+  border: 2px solid black;
+}
+
+#sec2 div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+}
