@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   font-size: 18px; /* ain */
   font-family: Arial, Helvetica, sans-serif;
-  color:#222;
+  color: #222;
 }
 
 *,
@@ -12,6 +12,7 @@ html {
 }
 a {
   text-decoration: none;
+}
 
 #sec2 {
   display: flex;
@@ -36,14 +37,13 @@ a {
   border: 2px solid black;
 }
 
-
 #sec2 div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid black;
 }
-.container{
+.container {
   width: 1200px;
   margin: auto;
 }
@@ -107,41 +107,42 @@ span.happy:hover {
   width: 100%;
   height: 400px;
   border: 2px solid black;
-  margin: 10px;}
+  margin: 10px;
+}
 /* ainhoa */
 header {
   display: flex;
   justify-content: space-between;
   padding: 0;
-margin:5px 0;
+  margin: 5px 0;
 }
-#sec3{
-margin:5px 0;
+#sec3 {
+  margin: 5px 0;
 }
 
-header ul.nav{
+header ul.nav {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  width:70%;
-  border:1px solid pink;
+  width: 70%;
+  border: 1px solid pink;
+}
+header ul.nav li {
+  margin: 0 5px;
 }
 
-header ul.nav li{
-margin:0 5px;
+div.bigimg {
+  width: 1200px;
+}
+.bigimg img {
+  width: 1200px;
+  opacity: 1;
 }
 
-div.bigimg{
-  width:1200px;
+a:visited,
+a {
+  color: #222;
 }
-.bigimg img{
-  width:1200px;
-  opacity:1;
-}
-
-a:visited, a{
-  color:#222;
-}
-ul.nav li a:visited{
-  color:#222;
+ul.nav li a:visited {
+  color: #222;
 }
