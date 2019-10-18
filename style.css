@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  font-size: 18px; /* ain */
+  font-family: Arial, Helvetica, sans-serif;
+  color:#222;
 }
 
 *,
@@ -7,20 +10,57 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-
-section {
-  border: 2px solid black;
+a {
+  text-decoration: none;
 }
+
+
 
 #sec2 div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid black;
-
+}
 .container{
   width: 1200px;
   margin: auto;
+}
 
+/* ainhoa */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+margin:5px 0;
+}
+#sec3{
+margin:5px 0;
+}
+
+header ul.nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width:70%;
+  border:1px solid pink;
+}
+
+header ul.nav li{
+margin:0 5px;
+}
+
+div.bigimg{
+  width:1200px;
+}
+.bigimg img{
+  width:1200px;
+  opacity:1;
+}
+
+a:visited, a{
+  color:#222;
+}
+ul.nav li a:visited{
+  color:#222;
 }
