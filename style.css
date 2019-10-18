@@ -35,7 +35,7 @@ html {
   margin: auto;
 }
 
-ul {
+#accordian > ul {
   padding: 0;
   list-style: none;
 }
@@ -45,7 +45,7 @@ ul {
   margin: auto;
 }
 
-span {
+span.happy {
   display: block;
   background: red;
   padding: 15px;
@@ -69,7 +69,7 @@ span {
 .content p {
   padding: 10px;
 }
-a:hover {
+span.happy:hover {
   background: yellow;
 }
 
