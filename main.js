@@ -1,4 +1,3 @@
-//**Danilo**/
 $(document).ready(function() {
   $("#accordian").on("click", "span", function() {
     $(".content").removeClass("active")
@@ -7,47 +6,71 @@ $(document).ready(function() {
       .addClass("active")
   })
 
-  //**********ainhoa***********l
 
   $.get("https://obscure-tundra-54269.herokuapp.com/fine-dining").done(function(
     data
   ) {
     console.log(data["appetizers"])
 
+let appetizers=["images/Baked_clams_with_champagne_sauce_and_pancetta.jpg", "images/eggplant.jpg","images/tunatartare.jpg","images/cold-cuts.jpg"];
+let entrees=["images/carbonara.jpg","images/trufagnocchi.jpg","images/ribeye.jpg","images/salmon.jpg"];
+let desserts=["images/tiramisu-2897900_960_720.jpg","images/cheesecake.jpg","images/strawberries.jpg","images/oreomilkshake.jpg"];
+let arraux=[];
+$.get("https://obscure-tundra-54269.herokuapp.com/fine-dining").done(function(data){
     $("#sec1").on("click", "p", function() {
-      $(".dinner").remove()
-
+      
+ $(".dinner").remove()
+      
+      
       const type = $(this).html()
-      console.log(data["appetizers"][0].price)
-      console.log(type.toLowerCase())
-      let dat = data[type.toLowerCase()]
-        .map(d => {
-          console.log(d.price)
+      if(type.toLowerCase()==="entrees"){
+        arraux=entrees;
+      } else if (type.toLowerCase()==="desserts"){
+        arraux=desserts;
+      }else{
+        arraux=appetizers;
+      }
+           
+      let dat=data[type.toLowerCase()].map((d,i) =>{
+      let spi=d.extra.spicy ? "fa fa-check" : "fa fa-times";
+      let gfree=d.extra.glutenfree ? "fa fa-check" : "fa fa-times";
+      let veg=d.extra.vegetarian ? "fa fa-check" : "fa fa-times";
 
-          console.log(d.name)
-          console.log(d.description)
-          console.log(d.extra.glutenfree)
-
-          return `
-      <div class="dinner">
-        <div class="menuline1">
+      return `  
+      <div class="dinner"> 
+          <img src=${arraux[i]}>
+            
+          <div class="menuline1">
           <p id="name">${d.name}</p>
-          <p id="price">${d.price}</p>
-        </div>
           <p id="descr">${d.description}</p>
-          <ul class="extras">                          
-    <li>${d.extra.spicy}<i class="fa fa-check"></i></li>
-            <li>${d.extra.glutenfree} <i class="fa fa-check"></i></li>
-            <li>${d.extra.vegetarian}<i class="fa fa-check"></i></li>
-          </ul>
-        </div>
-      `
-        })
-        .join("")
-
-      $(".menu").append(dat)
+          <p id="price">$${d.price}</p>
+        <ul class="extras">                          
+          <li>Spicy<i class="${spi}"></i></li>
+          <li>Gluten free <i class="${gfree}"></i></li>
+          <li>Vegetarian<i class="${veg}"></i></li>
+      </ul>
+      
+      </div>
+        </div> 
+      ` 
+     
+      }).join('')
+    
+        $(".menu").append(dat)
+     
+      })
     })
-  })
 
-  //***********ainhoa**********
+   
+      $( "a.scroll" ).click(function(e) {
+          e.preventDefault();
+          $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 700);
+      });
+ 
+
+
+
+
+
+
 })
