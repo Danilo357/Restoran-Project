@@ -6,7 +6,11 @@ $(document).ready(function() {
       .addClass("active")
   })
 
-  //**********ainhoa***********l
+
+  $.get("https://obscure-tundra-54269.herokuapp.com/fine-dining").done(function(
+    data
+  ) {
+    console.log(data["appetizers"])
 
 let appetizers=["images/Baked_clams_with_champagne_sauce_and_pancetta.jpg", "images/eggplant.jpg","images/tunatartare.jpg","images/cold-cuts.jpg"];
 let entrees=["images/carbonara.jpg","images/trufagnocchi.jpg","images/ribeye.jpg","images/salmon.jpg"];
@@ -63,7 +67,6 @@ $.get("https://obscure-tundra-54269.herokuapp.com/fine-dining").done(function(da
           $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 700);
       });
  
-  //***********ainhoa**********
 
 
 
