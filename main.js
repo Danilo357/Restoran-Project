@@ -7,11 +7,6 @@ $(document).ready(function() {
   })
 
 
-  $.get("https://obscure-tundra-54269.herokuapp.com/fine-dining").done(function(
-    data
-  ) {
-    console.log(data["appetizers"])
-
 let appetizers=["images/Baked_clams_with_champagne_sauce_and_pancetta.jpg", "images/eggplant.jpg","images/tunatartare.jpg","images/cold-cuts.jpg"];
 let entrees=["images/carbonara.jpg","images/trufagnocchi.jpg","images/ribeye.jpg","images/salmon.jpg"];
 let desserts=["images/tiramisu-2897900_960_720.jpg","images/cheesecake.jpg","images/strawberries.jpg","images/oreomilkshake.jpg"];

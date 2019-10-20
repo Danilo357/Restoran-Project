@@ -86,6 +86,7 @@ span.happy {
   font-size: 20px;
   border: 1px solid grey;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .content {
@@ -132,18 +133,19 @@ span.happy:hover {
   height: 400px;
   margin: auto;
   display: flex;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .informations {
-  margin: auto;
   font-family: fantasy;
   text-align: center;
-  padding-left: 50px;
+  padding: 0 0 0 50px;
+
 }
 
 .infname {
   font-size: 30px;
+
 }
 /* **Danilo**UP */
 
@@ -224,7 +226,7 @@ div.bigimg > h3 {
   }
   div.bigimg a>p:hover{
   color:black;
-  background-color:rgba(255, 255, 255,0.8);
+  background-color:rgba(255, 255, 255,0.8);}
   
 
 div.bigimg a,
@@ -540,15 +542,18 @@ color:purple;
 
 #foot{
   background: rgba(124, 26, 86, 0.8);
+  width:100%;
+  
+
  }
 
  footer {
    display: flex;
    justify-content: space-around;
-  
+   height:350px;
+
    width:1200px;
    margin:0 auto;
-   height:550px;
    padding: 0;
  }
 
@@ -556,21 +561,21 @@ color:purple;
   display: flex;
   flex-direction:column;
   align-items:flex-start;
-  
+  height:350px;
   width: 550px;
  }
 
  label.formtitle{
    margin:20px;
    color:white;
-   font-size: 50px;
+   font-size: 40px;
    text-align: center;
  }
 
 input, textarea {
   width: 500px;
-  margin: 10px 10px;
-  height: 50px;
+  margin: 8px 8px;
+  height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   outline: 0;
   
@@ -578,11 +583,11 @@ input, textarea {
 
 
 textarea{
-  height:200px;
+  height:120px;
   resize: none;}
 
 input.submitb{
-  height: 45px;
+  height: 28px;
   width:165px;
   color:white;
   font-size: 17px;
@@ -602,8 +607,9 @@ input.submitb{
 .media{
   /* background-color: white; */
   width: 320px;
-  height: 500px;
-  margin:35px 0;
+  height: 250px;
+  margin:25px 0;
+  padding: 45px 0 0 0;
 }
 
 ul.social{
@@ -619,10 +625,10 @@ ul.social{
   border:1px solid white;
   background-color: white;
   color:rgba(124, 26, 86, 0.8);
-  width:130px;
-  height: 130px;
-  font-size: 100px;
-  line-height: 130px;
+  width:80px;
+  height: 80px;
+  font-size: 70px;
+  line-height: 80px;
   text-align: center;
 
 }
