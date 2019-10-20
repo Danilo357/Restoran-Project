@@ -1,3 +1,4 @@
+//**Danilo**/
 $(document).ready(function() {
   $("#accordian").on("click", "span", function() {
     $(".content").removeClass("active")
