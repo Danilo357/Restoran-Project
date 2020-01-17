@@ -3,8 +3,8 @@ html {
   font-size: 18px; /* ain */
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
-  margin:0;
-  top:0px;
+  margin: 0;
+  top: 0px;
 }
 
 *,
@@ -61,7 +61,7 @@ a {
 }
 .container {
   width: 100%;
-  margin:auto;
+  margin: auto;
 }
 
 #accordian > ul {
@@ -140,40 +140,35 @@ span.happy:hover {
   font-family: fantasy;
   text-align: center;
   padding: 0 0 0 50px;
-
 }
 
 .infname {
   font-size: 30px;
-
 }
 /* **Danilo**UP */
 
 /* ainhoa */
-#head{
-  width:100%;
-  margin:0 auto;
+#head {
+  width: 100%;
+  margin: 0 auto;
   position: sticky;
   background: rgba(124, 26, 86, 0.9);
-  top:0;
+  top: 0;
   z-index: 10;
- }
-
- 
+}
 
 header {
-  width:1200px;
-  margin:auto;
+  width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   padding: 0;
   transition: all 0.2s ease-in-out;
-  
 }
 
-header img{
-  width:70px;
-  margin:5px 0;
+header img {
+  width: 70px;
+  margin: 5px 0;
 }
 
 header ul.nav {
@@ -181,16 +176,15 @@ header ul.nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color:white;
+  color: white;
   width: 70%;
   /* border: 1px solid pink; */
 }
 header ul.nav li {
   margin: 0 5px;
-  
 }
 
-div.bigimg{
+div.bigimg {
   width: 100%;
   height: 700px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -215,19 +209,19 @@ div.bigimg > p {
   text-align: center;
 }
 
-
 div.bigimg > h3 {
   font-size: 55px;
   margin: 0;
 }
 
-  div.bigimg a, div.bigimg a:visited{
-    color:white;
-  }
-  div.bigimg a>p:hover{
-  color:black;
-  background-color:rgba(255, 255, 255,0.8);}
-  
+div.bigimg a,
+div.bigimg a:visited {
+  color: white;
+}
+div.bigimg a > p:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
 div.bigimg a,
 div.bigimg a:visited {
@@ -244,11 +238,11 @@ p.contactuscta {
   background: rgba(17, 17, 17, 0.5);
 }
 
+div.grey {
+  width: 100%;
 
-div.grey{
-  width:100%;
   /* background-color: #f8f9fa; */
-  background: rgba(238, 204, 225, 0.1)
+  background: rgba(238, 204, 225, 0.1);
 }
 /*
 #sec1 {
@@ -275,53 +269,54 @@ a { */
  
 } */
 
-#sec1{
-  width:1200px;
-  margin:auto;
-  padding:40px 0;
+#sec1 {
+  width: 1200px;
+  margin: auto;
+  padding: 40px 0;
   /* text-align: center; */
-    /* margin:5px 0; */
-    /* display: flex;
+  /* margin:5px 0; */
+  /* display: flex;
     justify-content: space-between; */
-    /* height:400px; */
-      
+  /* height:400px; */
 }
 
-#sec1 div.menutitle p:first-child{
-widows: 1200px;
-margin:auto;
-font-size: 40px;
-text-align: center;
+#sec1 div.menutitle p:first-child {
+  widows: 1200px;
+  margin: auto;
+  font-size: 40px;
+  text-align: center;
 }
 
-#sec1 div.menutitle p:nth-child(2){
-  text-align: center;;
+#sec1 div.menutitle p:nth-child(2) {
+  text-align: center;
 }
 
-.menusect{
+.menusect {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 
-.menusect p{
+.menusect p {
   border: 1px solid black;
   padding: 15px;
-  width:150px;
-  margin:10px 5px;
+  width: 150px;
+  margin: 10px 5px;
   text-align: center;
- }
+}
 
- .menusect p:hover, .menusect p.active{
-   background:#7c1a56;
-   color:white
- }
+.menusect p:hover,
+.menusect p.active {
+  background: #7c1a56;
+  color: white;
+}
 
- 
-a:visited, a {
+a:visited,
+a {
   color: #222;
 }
-ul.nav li a:visited, a {
-  color:white;
+ul.nav li a:visited,
+a {
+  color: white;
 }
 
 /* .shadow img {
@@ -419,14 +414,10 @@ ul.nav li a:visited, a {
   font-family: fantasy;
 }
 
-
-
-
-
 #sec1 .menu {
   display: flex;
   flex-wrap: wrap;
-/*   border: 1px solid pink;
+  /*   border: 1px solid pink;
   height: 350px;
   width: 83%; */
 }
@@ -455,43 +446,40 @@ ul.nav li a:visited, a {
   
 }
  */
-.dinner{
+.dinner {
   display: flex;
-  padding:30px 0;
-  width:550px;
-  margin:10px 0;
+  padding: 30px 0;
+  width: 550px;
+  margin: 10px 0;
 }
 
-.dinner img{
+.dinner img {
   width: 150px;
-  height:150px;
- 
-  margin:0 10px;
-  border:2px solid #7c1a56;
+  height: 150px;
+
+  margin: 0 10px;
+  border: 2px solid #7c1a56;
   border-radius: 50%;
 }
 
-
-.menuline1>p{
+.menuline1 > p {
   justify-content: space-between;
 
   margin: 0;
   padding: 2px 10px;
 }
 
-.menuline1>p:first-child{
+.menuline1 > p:first-child {
   font-size: 20;
   font-weight: bold;
 }
 
 #descr {
   font-size: 15px;
-  margin:0; 
-  width:350px;
+  margin: 0;
+  width: 350px;
   padding: 0 10px;
-  
- } 
-
+}
 
 /* ul.extras {
   display: flex;
@@ -512,167 +500,159 @@ i.fa {
 i.fa-check {
   color: green;
  */
-#price{
-  margin:10px 0;
-  color:#7c1a56;
+#price {
+  margin: 10px 0;
+  color: #7c1a56;
   font-size: 30px;
 }
 
-ul.extras{
+ul.extras {
   display: flex;
   list-style: none;
   font-size: 15px;
-  
+
   padding: 0;
-  }
-
-  ul.extras li{
-    padding: 0 10px 0 10px;
-  }
-  
-
-  .extras i.fa{
-padding-left:5px;
-font-size: 22px;
-color:purple;
-  }
-.extras i.fa-check{
-  color:green;
 }
 
-#foot{
+ul.extras li {
+  padding: 0 10px 0 10px;
+}
+
+.extras i.fa {
+  padding-left: 5px;
+  font-size: 22px;
+  color: purple;
+}
+.extras i.fa-check {
+  color: green;
+}
+
+#foot {
   background: rgba(124, 26, 86, 0.8);
-  width:100%;
-  
+  width: 100%;
+}
 
- }
-
- footer {
-   display: flex;
-   justify-content: space-around;
-   height:350px;
-
-   width:1200px;
-   margin:0 auto;
-   padding: 0;
- }
-
- form {
+footer {
   display: flex;
-  flex-direction:column;
-  align-items:flex-start;
-  height:350px;
+  justify-content: space-around;
+  height: 350px;
+
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 350px;
   width: 550px;
- }
+}
 
- label.formtitle{
-   margin:20px;
-   color:white;
-   font-size: 40px;
-   text-align: center;
- }
+label.formtitle {
+  margin: 20px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
 
-input, textarea {
+input,
+textarea {
   width: 500px;
   margin: 8px 8px;
   height: 30px;
   font-family: Arial, Helvetica, sans-serif;
   outline: 0;
-  
 }
 
+textarea {
+  height: 120px;
+  resize: none;
+}
 
-textarea{
-  height:120px;
-  resize: none;}
-
-input.submitb{
+input.submitb {
   height: 28px;
-  width:165px;
-  color:white;
+  width: 165px;
+  color: white;
   font-size: 17px;
   font-weight: bold;
   background-color: rgba(124, 26, 86, 0.8);
   text-transform: uppercase;
-  border:2px solid white;
-
+  border: 2px solid white;
 }
 
-::placeholder{
-  color:#bbb;
-  padding:10px 0 0 10px;
+::placeholder {
+  color: #bbb;
+  padding: 10px 0 0 10px;
 }
 
-
-.media{
+.media {
   /* background-color: white; */
   width: 320px;
   height: 250px;
-  margin:25px 0;
+  margin: 25px 0;
   padding: 45px 0 0 0;
 }
 
-ul.social{
+ul.social {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
- 
 }
 
-.social li{
-  margin:5px;
-  border:1px solid white;
+.social li {
+  margin: 5px;
+  border: 1px solid white;
   background-color: white;
-  color:rgba(124, 26, 86, 0.8);
-  width:80px;
+  color: rgba(124, 26, 86, 0.8);
+  width: 80px;
   height: 80px;
   font-size: 70px;
   line-height: 80px;
   text-align: center;
-
 }
 
-.social a li.fb{
-  color:#4267B2;
+.social a li.fb {
+  color: #4267b2;
 }
-.social a li.fb:hover{
-  background: #4267B2;
-  color:white;
+.social a li.fb:hover {
+  background: #4267b2;
+  color: white;
 }
-.social a li.rss{
-  color:#ee802f ;
+.social a li.rss {
+  color: #ee802f;
 }
-.social a li.rss:hover{
-  background: #ee802f ;
-  color:white;
+.social a li.rss:hover {
+  background: #ee802f;
+  color: white;
 }
-.social a li.tw{
-  color:#1DA1F2;
+.social a li.tw {
+  color: #1da1f2;
 }
-.social a li.tw:hover{
-  background: #1DA1F2;
-  color:white;
+.social a li.tw:hover {
+  background: #1da1f2;
+  color: white;
 }
-.social a li.yt{
-  color:#FF0000 ;
+.social a li.yt {
+  color: #ff0000;
 }
-.social a li.yt:hover{
-  background: #FF0000 ;
-  color:white;
+.social a li.yt:hover {
+  background: #ff0000;
+  color: white;
 }
 
-.social a li.yelp{
-  color:#c41200 ;
+.social a li.yelp {
+  color: #c41200;
 }
-.social a li.yelp:hover{
-  background: #c41200 ;
-  color:white;
+.social a li.yelp:hover {
+  background: #c41200;
+  color: white;
 }
-.social a li.pint{
-  color:#BD081C ;
+.social a li.pint {
+  color: #bd081c;
 }
-.social a li.pint:hover{
-  background: #BD081C ;
-  color:white;
+.social a li.pint:hover {
+  background: #bd081c;
+  color: white;
 }
