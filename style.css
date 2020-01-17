@@ -61,6 +61,7 @@ a {
 }
 .container {
   width: 100%;
+
   margin: auto;
 }
 
@@ -159,6 +160,7 @@ span.happy:hover {
 
 header {
   width: 1200px;
+  height: 80px;
   margin: auto;
   display: flex;
   justify-content: space-between;
