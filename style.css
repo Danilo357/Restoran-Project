@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 18px; /* ain */
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
   margin: 0;
@@ -15,7 +15,6 @@ html {
 a {
   text-decoration: none;
 }
-/* **Danilo**DOWN */
 
 #sec0 {
   width: 1200px;
@@ -146,9 +145,7 @@ span.happy:hover {
 .infname {
   font-size: 30px;
 }
-/* **Danilo**UP */
 
-/* ainhoa */
 #head {
   width: 100%;
   margin: 0 auto;
@@ -180,7 +177,6 @@ header ul.nav {
   align-items: center;
   color: white;
   width: 70%;
-  /* border: 1px solid pink; */
 }
 header ul.nav li {
   margin: 0 5px;
@@ -243,43 +239,13 @@ p.contactuscta {
 div.grey {
   width: 100%;
 
-  /* background-color: #f8f9fa; */
   background: rgba(238, 204, 225, 0.1);
 }
-/*
-#sec1 {
-  width: 1200px;
-  margin: auto;
-
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  height: 400px;
-}
-
-.menusect p {
-  border: 1px solid black;
-  padding: 18px;
-  width: 190px;
-  text-align: center;
-  margin: 5px auto;
-}
-
-a:visited,
-a { */
-/*   height:400px;
- 
-} */
 
 #sec1 {
   width: 1200px;
   margin: auto;
   padding: 40px 0;
-  /* text-align: center; */
-  /* margin:5px 0; */
-  /* display: flex;
-    justify-content: space-between; */
-  /* height:400px; */
 }
 
 #sec1 div.menutitle p:first-child {
@@ -320,13 +286,6 @@ ul.nav li a:visited,
 a {
   color: white;
 }
-
-/* .shadow img {
-  height: 140px;
-  width: 150px;
-} */
-
-/* **Danilo**DOWN */
 
 .carrousel {
   margin: auto;
@@ -419,35 +378,7 @@ a {
 #sec1 .menu {
   display: flex;
   flex-wrap: wrap;
-  /*   border: 1px solid pink;
-  height: 350px;
-  width: 83%; */
 }
-/* div.menusect {
-  display: block;
-  flex-direction: column;
-  height: 100%;
-  margin: 20px 0;
-}
-
-.dinner {
-  /* display: flex;
-  justify-content: space-evenly;
-  padding:30px 0; */
-/* width: 450px;
-  margin: 10px;
-} */
-
-/* .menuline1 {
-  display: flex;
-  justify-content: space-between;
-} */
-/* .menuline1 > p { 
-
-  
-  
-}
- */
 .dinner {
   display: flex;
   padding: 30px 0;
@@ -483,25 +414,6 @@ a {
   padding: 0 10px;
 }
 
-/* ul.extras {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  font-size: 15px;
-}
-
-ul.extras li {
-  margin-left: 15px;
-}
-
-i.fa {
-  padding-left: 5px;
-  font-size: 22px;
-  color: purple;
-}
-i.fa-check {
-  color: green;
- */
 #price {
   margin: 10px 0;
   color: #7c1a56;
@@ -590,7 +502,6 @@ input.submitb {
 }
 
 .media {
-  /* background-color: white; */
   width: 320px;
   height: 250px;
   margin: 25px 0;
